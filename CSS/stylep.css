@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+nav a{
+    color: #fff;
+    margin-right: 15px;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration:underline;
+    color: #a6a4f0;
+}
+a:hover{
+    transition: 
+}
+.vidio video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.pico{
+    text-align: right;
+    padding: 15px;
+}
+.oink{
+    text-align: center;
+    padding: 60px;
+}
+.oink h3{
+    color: #fff;
+}
+.loros{
+    background-image:url(../img/text1.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.corn{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap; 20px;
+}
+.perro img{
+    width: 450px;
+    height: 300px;
+}
+.loros h2{
+    text-align: center;
+    align-content: center;
+    color:beige;
+    font-size: 45px;
+}
+.rojo p{
+    width: 550px;
+    text-align: justify;
+    font-size: 20px;
+    color: beige;
+}
+.piedra{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #817d8e;
+    box-shadow: 2px 2px 8px 4px #817d8e;
+    transition: all .28s;
+    border-radius: 20px;
+}
+.piedra:hover{
+    transform: translateY(-10px)
+}
+.txt{
+    text-align: center;
+}
+.txt img{
+    width: 150px;
+	height: 200px;
+    text-align: center;
+}
+.txt p{
+    text-align: left;
+    padding: 10px;
+    color: aliceblue;
+}
+.title h2{
+    color: aliceblue;
+}
+.juegos{
+    background-image: url(../img/cueva.jpg);
+}
+.juegos{
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    padding: 20px;
+}
+.juegos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.servicios{
+    background-image: url(../img/nether.jpg);
+}
+.piedra2{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.piedra2 
+.servicios{
+    width: 100vw;
+    height: 1000px;
+    position: relative;
+    padding: 200px;
+}
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.market h2{
+    color: aliceblue;
+}
+.social-link{
+    display: inline-block;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+.social-icon:hover{
+    transform: scale(1.1);
+}
+.footer{
+    height: auto;
+    padding: 20px 40px;
+}
+.cajas p{
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.5;
+
+}
+
+.caja2{
+  font-size: 20px;
+  color:#393a3c ;
+  margin-right: 15px;
+  text-decoration: none;
+  display: flex;
+    justify-content: space-evenly;
+}   
+.caja2{
+	background-image: url(../img/end.jpg);
+}
+.caja2{
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+}
